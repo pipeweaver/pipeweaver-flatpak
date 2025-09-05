@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=PipeWeaver
+Comment=An Audio Mixer built upon Pipewire
+GenericName=PipeWeaver
+Exec=pipeweaver-daemon
+Icon=io.github.pipeweaver
+Terminal=false
+Type=Application
+Categories=Audio;Settings
+Keywords=audio
+StartupNotify=false
+StartupWMClass=io.github.pipeweaver
+X-Flatpak=io.github.pipeweaver

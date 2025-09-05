@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.pipeweaver</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>PipeWeaver</name>
+  <summary>A mixing suite built upon Pipewire</summary>
+  <description>
+    <p>
+	A mixer built on Pipewire, supporting routing and Matrix Mixing
+    </p>
+  </description>
+  <launchable type="desktop-id">io.github.pipeweaver.desktop</launchable>
+  <url type="homepage">https://github.com/pipeweaver/pipeweaver</url>
+  <url type="bugtracker">https://github.com/pipeweaver/pipeweaver/issues</url>
+  <categories>
+    <category>Audio</category>
+    <category>Settings</category>
+  </categories>
+  <keywords>
+    <keyword>audio</keyword>
+  </keywords>
+</component>
