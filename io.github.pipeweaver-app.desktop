@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=PipeWeaver
+Comment=Pipewire Application Frontend
+GenericName=PipeWeaver App
+Exec=pipeweaver-app
+Icon=io.github.pipeweaver
+Terminal=false
+Type=Application
+Categories=Audio;Settings
+Keywords=audio
+StartupNotify=false
+StartupWMClass=io.github.pipeweaver
+X-Flatpak=io.github.pipeweaver
+NoDisplay=true
