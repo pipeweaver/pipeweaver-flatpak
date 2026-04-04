@@ -84,7 +84,10 @@ modules:
     sources:
       - type: git
         url: https://github.com/pipeweaver/pipeweaver
-        branch: main
+        tag: v0.1.1
+
+        # Uncomment for testing against main, while commenting the above tag line.
+        #  branch: main
       - type: file
         path: io.github.pipeweaver.metainfo.xml
       - type: file
