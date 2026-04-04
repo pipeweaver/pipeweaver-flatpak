@@ -10,6 +10,17 @@
 	A mixer built on Pipewire, supporting routing and Matrix Mixing
     </p>
   </description>
+  <developer>
+    <name>The PipeWeaver Team</name>
+  </developer>
+  <developer_name>The PipeWeaver Team</developer_name>
+
+  <releases>
+    <release version="0.1.1" date="2026-04-04">
+      <description>Initial Release</description>
+    </release>
+  </releases>
+
   <launchable type="desktop-id">io.github.pipeweaver.desktop</launchable>
   <url type="homepage">https://github.com/pipeweaver/pipeweaver</url>
   <url type="bugtracker">https://github.com/pipeweaver/pipeweaver/issues</url>
