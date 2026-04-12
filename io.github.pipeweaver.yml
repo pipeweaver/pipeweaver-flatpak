@@ -84,7 +84,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/pipeweaver/pipeweaver
-        tag: v0.1.1
+        tag: v0.1.3
 
         # Uncomment for testing against main, while commenting the above tag line.
         #  branch: main
