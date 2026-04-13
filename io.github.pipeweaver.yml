@@ -36,6 +36,10 @@ finish-args:
   # System tray icon
   - --talk-name=org.kde.StatusNotifierWatcher
 
+  # Used for Script Messaging
+  - --talk-name=org.kde.KWin
+  - --filesystem=xdg-run/pipeweaver
+
   # Ability to check whether an autostart entry is present
   # This is needed because there's no way to check via a portal
   - --filesystem=xdg-config/autostart:ro
@@ -87,7 +91,7 @@ modules:
         tag: v0.1.3
 
         # Uncomment for testing against main, while commenting the above tag line.
-        #  branch: main
+        #branch: main
       - type: file
         path: io.github.pipeweaver.metainfo.xml
       - type: file
