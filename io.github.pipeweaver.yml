@@ -13,7 +13,7 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
   - org.freedesktop.Sdk.Extension.llvm20
 
-  # - org.freedesktop.Sdk.Extension.node24
+  - org.freedesktop.Sdk.Extension.node24
 command: pipeweaver-daemon
 
 finish-args:
