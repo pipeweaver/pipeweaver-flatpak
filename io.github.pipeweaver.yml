@@ -13,8 +13,7 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
   - org.freedesktop.Sdk.Extension.llvm20
 
-  # TODO: Why do I need node24? O_o
-  - org.freedesktop.Sdk.Extension.node24
+  # - org.freedesktop.Sdk.Extension.node24
 command: pipeweaver-daemon
 
 finish-args:
@@ -88,7 +87,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/pipeweaver/pipeweaver
-        tag: v0.1.6
+        tag: v0.1.8
 
         # Uncomment for testing against main, while commenting the above tag line.
         #branch: main
